@@ -1,9 +1,10 @@
-# C++ CMake in Vision Studio
+# CMake
+> CMake is an open-source, cross-platform build system generator. It is designed to control the software compilation process using simple platform and compiler-independent configuration files, called CMakeLists.txt. 
+
+## create a CMake project in Visual Studio
 > I use Visual Studio to start CMake projects because it's easier to create CMake files in Visual Studio.
 
-## create a CMake project.
-
-### 1. set up CMake project
+### 1. set up CMake project 
 * 1. select `tools` in the toolbar, and select `get tools and features`
  
 ![image](https://github.com/ChengHsunTai/ROS2/assets/137912642/edd5fbbb-1c85-4e52-9066-0753200aa755)
@@ -27,3 +28,11 @@ in Solution Explorer, right-click the root folder and select `add -> add new fol
 
 ![image](https://github.com/ChengHsunTai/ROS2/assets/137912642/65829e92-8aba-442c-98f3-25827e18a835)
 
+* 2. update the root `CMakeList.txt`
+ add the code below
+
+```add_subdirectory ("new_code_module)")```
+
+![image](https://github.com/ChengHsunTai/CMake/assets/137912642/12cdb2fc-4b8e-4e9e-8117-78d9e6dcbc8d)
+
+ 
